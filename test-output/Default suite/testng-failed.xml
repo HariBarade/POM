@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.sampleproject.TestCase.logintestcase">
+        <methods>
+          <include name="logindetails"/>
+          <include name="setUp"/>
+          <include name="validateloginofFreeCRM"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- com.sampleproject.TestCase.logintestcase -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

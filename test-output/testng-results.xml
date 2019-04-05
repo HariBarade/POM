@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49891" started-at="2019-04-05T13:40:50Z" finished-at="2019-04-05T13:41:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="49891" started-at="2019-04-05T13:40:50Z" finished-at="2019-04-05T13:41:40Z">
+      <class name="com.sampleproject.TestCase.logintestcase">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sampleproject.TestCase.logintestcase@4b9e13df]" name="setUp" is-config="true" duration-ms="21485" started-at="2019-04-05T19:10:50Z" finished-at="2019-04-05T19:11:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logindetails()[pri:0, instance:com.sampleproject.TestCase.logintestcase@4b9e13df]" name="logindetails" duration-ms="6894" started-at="2019-04-05T19:11:11Z" finished-at="2019-04-05T19:11:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindetails -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.sampleproject.TestCase.logintestcase@4b9e13df]" name="test2" is-config="true" duration-ms="477" started-at="2019-04-05T19:11:18Z" finished-at="2019-04-05T19:11:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sampleproject.TestCase.logintestcase@4b9e13df]" name="setUp" is-config="true" duration-ms="20721" started-at="2019-04-05T19:11:19Z" finished-at="2019-04-05T19:11:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateloginofFreeCRM()[pri:0, instance:com.sampleproject.TestCase.logintestcase@4b9e13df]" name="validateloginofFreeCRM" duration-ms="28" started-at="2019-04-05T19:11:40Z" finished-at="2019-04-05T19:11:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateloginofFreeCRM -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.sampleproject.TestCase.logintestcase@4b9e13df]" name="test2" is-config="true" duration-ms="232" started-at="2019-04-05T19:11:40Z" finished-at="2019-04-05T19:11:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- com.sampleproject.TestCase.logintestcase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
