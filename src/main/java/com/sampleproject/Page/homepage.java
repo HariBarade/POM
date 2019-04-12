@@ -21,33 +21,39 @@ public class homepage extends Testmain {
 	@FindBy(xpath = "//a[contains(text(),'Deals')]")
 	WebElement DealLink;
 	
+	@FindBy(xpath = "//a[contains(text(),'Task')]")
+	WebElement Task;
+	
+	
 	//Initializing the object 
 	
 	public homepage() {
 		PageFactory.initElements(driver, this);
 	}
 	
+	public String Verifmainhomepage() {
+		return driver.getTitle();
+	}
+	
+	public contactpage Clickoncontact() {
+		ContactLink.click();
+		 return new contactpage();
+	}
+	
+	public dealspage Clickondeal() {
+		DealLink.click();
+		 return new dealspage();
+	}
+	
 	//methods
 	
-	public String verifyhometitlename() {
+	public  String verifyHomeTitle() {
 		return driver.getTitle();
 	}
 	
 	public void clickoncontactlink() {
 		ContactLink.click();
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 
 }

@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.sampleproject.TestCase.logintestcase">
+      <class name="com.sampleproject.TestCase.homepagetestcase">
         <methods>
-          <include name="logindetails"/>
-          <include name="setUp"/>
-          <include name="validateloginofFreeCRM"/>
-          <include name="test2"/>
+          <include name="validatehomepagetitle"/>
+          <include name="homepagequite"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- com.sampleproject.TestCase.logintestcase -->
+      </class> <!-- com.sampleproject.TestCase.homepagetestcase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
